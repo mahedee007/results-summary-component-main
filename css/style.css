@@ -27,3 +27,14 @@ body{
     justify-content: center; */
     font-family: 'Hanken Grotesk', sans-serif;
 }
+
+.result-card{
+    background-image: linear-gradient(to bottom right, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+    margin: auto;
+    width: 50%;
+    
+    padding: 70px 0;
+}
+.marks{
+    background-image: linear-gradient(var(--Violet-blue-circle), var(--Persian-blue-circle) )
+}
