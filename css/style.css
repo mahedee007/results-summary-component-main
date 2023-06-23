@@ -27,14 +27,55 @@ body{
     justify-content: center; */
     font-family: 'Hanken Grotesk', sans-serif;
 }
+.center {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
 
 .result-card{
     background-image: linear-gradient(to bottom right, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
-    margin: auto;
+    /* margin: auto;
     width: 50%;
     
-    padding: 70px 0;
+    padding: 70px 0; */
 }
 .marks{
-    background-image: linear-gradient(var(--Violet-blue-circle), var(--Persian-blue-circle) )
+    background-image: linear-gradient(var(--Violet-blue-circle), var(--Persian-blue-circle) );
+    border-radius: 50%;
+}
+.summary-card{
+    border-radius: 0 40px 40px 0;
+
+}
+.reaction-card, .memory-card, .verbal-card,.visual-card {
+    background-color: lightcyan;
+    padding: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.reaction{
+    color: var(--Light-red);
+
+}
+.memory{
+    color: var(--Orangey-yellow);
+}
+.vebal{
+    color: var(--Green-teal);
+}
+.visual{
+    color: var(--Cobalt-blue);
+}
+.continue-btn{
+    color: var(--White);
+    background-image: linear-gradient(to bottom right, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+    padding: 10px 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
 }
